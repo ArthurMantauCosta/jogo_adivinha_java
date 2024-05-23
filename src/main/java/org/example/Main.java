@@ -7,7 +7,11 @@ public class Main {
 
         Scanner leitura = new Scanner(System.in);
         String pronto;
+<<<<<<< HEAD
         int resposta = (int) Math.round(Math.random()*10);
+=======
+        int resposta;
+>>>>>>> aa99cb5c1d275b41d50d1aa3178c257a6cbded9e
         int tentativa;
 
 
@@ -26,6 +30,7 @@ public class Main {
 
         switch(pronto){
             case "s":
+<<<<<<< HEAD
                 jogo_for();
 
 
@@ -63,4 +68,22 @@ public class Main {
     }
 
 
+=======
+                resposta = 7;
+                System.out.println("Qual número entre 0 e 10 estou pensando?");
+                tentativa = leitura.nextInt();
+                if(tentativa == resposta) {
+                    System.out.println("Parabéns, você acertou");
+                }else{
+                    System.out.println("Que pena, você errou!");
+                }
+                break;
+            case "n":
+                System.out.println("Até mais, então.");
+                break;
+            default:
+                System.out.println("Opção inválida!");
+        }
+    }
+>>>>>>> aa99cb5c1d275b41d50d1aa3178c257a6cbded9e
 }

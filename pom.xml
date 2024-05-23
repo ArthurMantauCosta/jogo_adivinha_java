@@ -5,7 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>jogo_adivinha</artifactId>
+=======
+    <artifactId>jogo_adivinhacao</artifactId>
+>>>>>>> aa99cb5c1d275b41d50d1aa3178c257a6cbded9e
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,6 +17,7 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<<<<<<< HEAD
     <build>
         <plugins>
             <plugin>
@@ -25,5 +30,7 @@
             </plugin>
         </plugins>
     </build>
+=======
+>>>>>>> aa99cb5c1d275b41d50d1aa3178c257a6cbded9e
 
 </project>
